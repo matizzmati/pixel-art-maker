@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #F7EDE0;
+    color: #392801;
+}
+
+h1 {
+    
+    font-family: 'Ranchers', cursive;
+    font-size: 70px;
+    margin: 0.2em;
+    letter-spacing: 5px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #c7c7c7; 
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s; 
+}
+
+td:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;  
+}
+
+input[type=number], select {
+    width: 6em;
+}
+
+input[type=submit] {
+    background: none;
+    border: none;
+    width: 10em;
+    height: 2em;
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+    background-color: #392801;
+    color: white;
+}
+
+.input_label {
+    text-align: left; 
+    padding: 1px;
+    margin-left: 15px;
+}
+
+.input_name {
+    display: inline-block;
+    min-width: 5em;
+}
+
+form {
+    display: block;
+    max-width: 200px;
+    margin: auto;   
+}
+
+span {
+    color: #AB2567;
+}
+
+
+/* style for colorpicker */
+.jscolor { 
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* style for validation errors */
+label {
+    color: red;
+    position: absolute;   
+    margin-left: 5px;
+}
+.error {
+    color: red;
+}
